@@ -1,0 +1,79 @@
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+p {
+    font-size: 20px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin: 20px;
+  }
+
+
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card {
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,1);
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+    border-style:solid;
+    background-color:tan;
+  }
+  a {
+    font-size:large;
+    color: #000;
+    font-style:italic;
+  }
+  img{
+    border-radius: 10px;
+    height: 80%;
+    width: 70%;
+    object-fit: contain;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color:cadetblue;
+        
+        
+    }
+    
+    .wrapper {
+        display: flex;
+        
+    }
+    .second {
+        padding-left: 100px;
+        height: 95%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .first {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 100%;
+    }
+    background {
+      color:blanchedalmond;
+    }
+
+    
+  
+  
